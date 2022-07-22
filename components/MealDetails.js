@@ -3,7 +3,9 @@ import { StyleSheet, Text, View } from 'react-native';
 export const MealDetails = ({
   duration,
   complexity,
-  affordability
+  affordability,
+  style,
+  textStyle
 }) => {
   return (
     <View style={styles.detailsContainer}>
